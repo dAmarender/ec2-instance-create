@@ -8,8 +8,8 @@ terraform {
 }
 provider "aws" {
   region = "us-east-1"  # Update with your desired region
-  access_key = "AKIAVBG53YQM36JT3TOD"
-  secret_key = "VB1f7v4MKtsP66FGjqu531zpPvqSse80KYomXkMB"
+  access_key = "XXXXXXXX"
+  secret_key = "XXXXXX"
 }
 
 # IAM role for EC2 instance
