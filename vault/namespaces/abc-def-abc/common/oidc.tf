@@ -1,7 +1,7 @@
 # OIDC config for vault login
 
 resource "vault_oidc_auth_backend" "example" {
-    description         = "Demonstration Terraform oidc auth backend"
+    description         = "Demonstration oidc auth backend"
     path                = "oidc"
     type                = "oidc"
     oidc_discovery_url  = "https://myco.auth0.com/"
